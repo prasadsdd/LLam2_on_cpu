@@ -1,0 +1,11 @@
+langchain==0.0.225
+ctransformers==0.2.5 # beacuse we are loading quantize model.
+sentence-transformers==2.2.2  # for huggingface emedding model.
+pypdf  # beacuse we are going to load pdf data.
+flask # we are going to create user interface, web application,
+faiss-cpu
+-e .  
+## -e . --> aapan je loacal konte function create karnar aahot te use karnya sathi. aaplyakde setup.py 
+## aahe tyachya madhe find_package mhanun aahe . jya veli aapan setup.py run karu tyaveli to constructor file shodel saglya folder madhe.
+## src folder madhil __init__.py(hya la constructor file boltat) aani localy te function run karel.
+# setup.py sathi -e . use karto.
