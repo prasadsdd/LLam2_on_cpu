@@ -40,4 +40,19 @@ print(f"Answer: {result['result']}")
 ### 📌 Project Highlights
 This solution allows you to efficiently search and get insights from document-based data—all from your local machine! With the quantized Llama model, this project is optimized for offline usage and is ideal for those in resource-limited environments or without access to cloud services.
 
-🌟 **Enjoy exploring and making the most of your document data with this local Llama-powered solution!**
+Here’s an extended section that describes the Llama model, highlighting its quantized setup and its relevance for local, resource-efficient usage:
+
+---
+
+### 🦙 About the Llama Model
+
+The **Llama model** (Large Language Model Meta AI) is a powerful language model developed by Meta, known for its efficiency and ability to perform well across various natural language processing tasks. In this project, we’re using a **quantized version of Llama-2 (7B)**, specifically the **llama-2-7b-chat.ggmlv3.q2_K.bin** model file, which brings several unique benefits:
+
+- **🚀 Lightweight & Efficient**: The quantized version reduces model size without a significant loss in performance. Quantization is a technique that optimizes the model by reducing the precision of its weights, making it lightweight and faster for inference.
+- **🧩 Memory-Friendly**: Thanks to quantization, this model runs smoothly on CPUs, allowing you to execute advanced language tasks locally even if you lack GPU resources.
+- **⚡ Quick Response Times**: With a 7-billion parameter setup, this model strikes a balance between performance and efficiency, providing quick and contextually relevant answers in a small memory footprint.
+- **🤖 Optimized for QA Tasks**: This version of Llama-2 has been adapted for conversational tasks, making it ideal for answering questions based on specific context—perfect for our retrieval-based QA setup!
+
+### Why Use a Quantized Model?
+Quantized models like this version of Llama-2 are highly beneficial for those needing **high-performance NLP capabilities** in a **resource-limited environment**. Since the model size is significantly reduced, you can achieve nearly the same level of performance as the full model, but with a fraction of the compute requirements.
+
