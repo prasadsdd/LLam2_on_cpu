@@ -1,8 +1,5 @@
 # LLam2_on_cpu
 
-
-Here's a refined and more engaging README, with emojis for added style!
-
 ---
 
 # 📚 Local PDF-based QA with Quantized Llama Model 🚀
